@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShanmugaPriyaR - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/78efdb7aab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo-03-01.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#platforms">GlobalPlatforms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Engineer</p>
+                <h1>Hi, I'm <span>Shanmuga Priya</span><br>Student at Sri Eshwar College</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/20221203_105112.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><br>An individual with a keen interest in Software programs, possessing
+                        good interpersonal and analytical skills, who wish to use technical
+                        knowledge catering to the needs of the company. I wish to work with a
+                        diverse group of people and engage entire myself for the organization
+                        development.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('personal-info')">Personal Info</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="personal-info">
+                        <ul>
+                            <li><span>Father's Name : </span>Rajagopalan M</li>
+                            <li><span>DOB : </span>26-09-2003</li>
+                            <li><span>Known Languages : </span>English (R,W,S) , Tamil(R,W,S)</li>
+                            <li><span>Nationality : </span>Indian</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br>BE CSE at Sri Eshwar College Of Engineering</li>
+                            <li><span>2019 - 2020</span><br>Maharishi Vidya Manddir Matric Higher Secondary School</li>
+                            <li><span>2017 - 2018</span><br>Maharishi Vidya Manddir Matric Higher Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------------------skills------------------------------------>
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Technical</h2>
+                <p>I have a good problem solving skill and I can solve problems by implementing code in Java.I have a intermediate level knowledge in Java.Also,since my first language is C++,I can manage writing codes in C++ as well as C.For database,I use SQL queries.</p>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-person"></i>
+                <h2>Personal</h2>
+                <p>I'm good at handling a group of people.I can solve conflicts among peaople without a biased mindset.I can encourage and support a group of people.I posssess a good communication skills and I can convey a matter of thing to others in a crystal clear manner.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------GlobalPlatforms------------------------> 
+<div id="platforms">
+    <div class="container">
+        <h1 class="sub-title">Global Platforms</h1>
+        <div class="platform-list">
+            <div class="platform">
+                <img src="images/20221024_202402.jpg">
+                <div class="layer">
+                    <h3>SkillRack</h3>
+                    <p>I have solved 1300+ problems in SkillRack platform which includes coding in languages like java,c,c++,sql.</p>
+
+                </div>
+            </div>
+            <div class="platform">
+                <img src="images/20221024_203440.jpg">
+                <div class="layer">
+                    <h3>LeetCode</h3>
+                    <p>As all knows,leetcode is one of the best platform to solve challenges and I have solved 100+ problems in leetcode which mostly include problems in java.</p>
+                    <a href="https://leetcode.com/Shanmugapriya126/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="platform">
+                <img src="images/20221024_210903.jpg">
+                <div class="layer">
+                    <h3>HackerRank</h3>
+                    <p>I worked with java,c++ and sql kits in this platform and have good stars in each kits.</p>
+                    <a href="https://www.hackerrank.com/shanmugapriya_r5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!---------------------------------contact----------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>spshanmugi648@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 81108 26527</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shanmugapriya-r-cse-072538246/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Shanmugapriya26"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/_.shanmugapriya_/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/SHANMUGA PRIYA R_RESUME.pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
